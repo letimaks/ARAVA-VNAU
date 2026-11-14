@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09130f">
+  <meta name="description" content="Арава ВНАУ — AI-помічник для Chrome. Завантаження останньої версії та інструкція зі встановлення.">
+  <title>Арава ВНАУ — розширення Chrome</title>
+  <link rel="icon" href="assets/arava-logo.png">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="Арава ВНАУ — головна">
+        <img src="assets/arava-logo.png" alt="Арава ВНАУ">
+        <span><b>АРАВА ВНАУ</b><small>Chrome extension</small></span>
+      </a>
+      <a class="github-link" href="https://github.com/letimaks/Polymath" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </header>
+
+    <section class="hero">
+      <div class="eyebrow"><span class="pulse"></span> AI-ПОМІЧНИК ДЛЯ CHROME</div>
+      <h1>Навчання.<br><em>Точніше та швидше.</em></h1>
+      <p class="lead">Арава ВНАУ допомагає опрацьовувати запитання прямо на сторінці браузера та отримувати короткі відповіді через Groq AI.</p>
+      <div class="release-card">
+        <div class="release-meta">
+          <span class="release-label">ОСТАННІЙ РЕЛІЗ</span>
+          <span id="release-state" class="state">Перевіряю GitHub…</span>
+        </div>
+        <div class="version-row">
+          <strong id="version">2.2.7</strong>
+          <span id="release-date">Реліз GitHub</span>
+        </div>
+        <p id="release-notes" class="release-notes">Перевіряю доступність останнього ZIP-архіву.</p>
+        <a id="download-button" class="button primary disabled" href="#" aria-disabled="true">Завантажити розширення <span>↓</span></a>
+        <div class="secondary-actions">
+          <a id="release-link" href="https://github.com/letimaks/Polymath/releases" target="_blank" rel="noreferrer">Усі релізи</a>
+          <button id="refresh-button" type="button">Перевірити оновлення ↻</button>
+        </div>
+        <p id="download-status" class="tiny-status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="features">
+      <article><span class="feature-icon">⌁</span><h2>Швидкий виклик</h2><p>Гарячі клавіші та контекстне меню для роботи з текстом сторінки.</p></article>
+      <article><span class="feature-icon">◉</span><h2>Непомітне вікно</h2><p>Компактне відображення відповіді з налаштуванням вигляду.</p></article>
+      <article><span class="feature-icon">∑</span><h2>Технічні відповіді</h2><p>Підтримка формул, коротких пояснень і контексту сторінки.</p></article>
+    </section>
+
+    <section class="install">
+      <div class="section-head"><span class="eyebrow">ВСТАНОВЛЕННЯ</span><h2>Як додати в Chrome</h2><p>ZIP-версія встановлюється вручну. Після виходу нового релізу її потрібно оновити через цю сторінку.</p></div>
+      <ol>
+        <li><span>01</span><div><b>Завантаж ZIP</b><small>Натисни кнопку завантаження вище та розпакуй архів.</small></div></li>
+        <li><span>02</span><div><b>Відкрий сторінку розширень</b><small>Перейди на <code>chrome://extensions</code> і ввімкни «Режим розробника».</small></div></li>
+        <li><span>03</span><div><b>Завантаж розпаковану папку</b><small>Натисни «Завантажити розпаковане» та вибери папку, де знаходиться <code>manifest.json</code>.</small></div></li>
+        <li><span>04</span><div><b>Оновлюй через новий ZIP</b><small>Завантаж новий реліз, заміни папку та перезавантаж розширення.</small></div></li>
+      </ol>
+      <div class="notice"><b>Про автоматичні оновлення Chrome</b><p>GitHub-сторінка може автоматично знаходити новий реліз, але не може самостійно замінити файли розпакованого розширення. Для автоматичного оновлення звичайного користувацького Chrome розширення потрібно опублікувати в Chrome Web Store.</p></div>
+    </section>
+
+    <footer><span>АРАВА ВНАУ</span><a href="https://t.me/Cryzume" target="_blank" rel="noreferrer">@Cryzume</a><small>Поширення та оновлення — через GitHub Releases.</small></footer>
+  </main>
+  <script src="assets/app.js"></script>
+</body>
+</html>
