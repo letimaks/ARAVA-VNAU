@@ -1,6 +1,6 @@
 (() => {
   const REPOSITORY = 'letimaks/ARAVA-VNAU';
-  const EXPECTED_ASSET = /^AravaVNAU.*\\.zip$/i;
+  const EXPECTED_ASSET = /^AravaVNAU.*\.zip$/i;
   const CHROME_STORE_URL = ''; // Set this after the item is published in Chrome Web Store.
   const $ = (id) => document.getElementById(id);
   async function loadLatestRelease() {
