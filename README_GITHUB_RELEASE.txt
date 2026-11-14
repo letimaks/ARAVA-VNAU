@@ -1,11 +1,11 @@
-ПІДГОТОВКА АРАВА ВНАУ ДО ПУБЛІКАЦІЇ
+ПУБЛІКАЦІЯ АРАВА ВНАУ 2.2.7
 
-GitHub Pages сторінка: папка arava-vnau
-Репозиторій: letimaks/Polymath
-URL після публікації: https://letimaks.github.io/Polymath/arava-vnau/
+Репозиторій: letimaks/ARAVA-VNAU
+GitHub Pages: https://letimaks.github.io/ARAVA-VNAU/
 
-Release asset має називатися, наприклад: AravaVNAU_2_2_7.zip
-Покласти його в GitHub Release (tag v2.2.7).
-Сторінка сама запитує останній Release і оновлює версію/кнопку завантаження.
+Створи Release з тегом v2.2.7 та прикріпи AravaVNAU_2_2_7.zip.
+Сторінка автоматично читає останній Release саме з репозиторію letimaks/ARAVA-VNAU.
 
-ВАЖЛИВО: ця сторінка не може встановити ZIP всередину Chrome та не може автооновлювати unpacked extension. Для звичайного Chrome у Windows автоматичні оновлення забезпечує публікація в Chrome Web Store.
+ВАЖЛИВО: ZIP містить локальні налаштування/ключі розробника. Перед публічним завантаженням переконайся, що всі вбудовані Groq API-ключі можна розкривати: вміст ZIP є публічним для кожного, хто його завантажить.
+
+Пряме встановлення з вебсторінки неможливе для unpacked ZIP. Для кнопки «Додати в Chrome» треба опублікувати розширення в Chrome Web Store і записати URL картки у CHROME_STORE_URL.
